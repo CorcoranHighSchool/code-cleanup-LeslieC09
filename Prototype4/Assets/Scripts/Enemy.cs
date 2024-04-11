@@ -9,7 +9,7 @@ private const string player = "Player";
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player");
+        player = GameObject.Find(player);
         enemyRb = GetComponent<Rigidbody>();
     }
 
